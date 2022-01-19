@@ -1,0 +1,71 @@
+{
+  "name": "nishe",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-countdown": "^1.1.5",
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "apexcharts": "^3.30.0",
+    "axios": "^0.24.0",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "check-password-strength": "^2.0.3",
+    "core-js": "^3.6.5",
+    "cropperjs": "^1.5.12",
+    "deepmerge": "^4.2.2",
+    "line-awesome": "^1.3.0",
+    "object-path": "^0.11.8",
+    "perfect-scrollbar": "^1.5.3",
+    "valid-south-african-id": "^1.0.1",
+    "vue": "^2.6.11",
+    "vue-apexcharts": "^1.6.2",
+    "vue-axios": "^3.3.7",
+    "vue-cropperjs": "^4.2.0",
+    "vue-inline-svg": "^2.1.0",
+    "vue-router": "^3.2.0",
+    "vue2-perfect-scrollbar": "^1.5.2",
+    "vuelidate": "^0.7.6",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^2.2.1",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended",
+      "@vue/prettier"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
